@@ -1,0 +1,36 @@
+body {
+    background-image: linear-gradient(
+        #3db8e8 0%,
+        #2d62b8 20%,
+        #255a8f 20%,
+        #194290 40%,
+        #19477c 40%,
+        #1f7ab6 60%,
+        #2d1aaa 60%,
+        #2443de 80%,
+        #2c17a4 80%,
+        #5e0deb 100%
+    );
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0 auto;
+}
+
+.main_box {
+    width: 600px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+}
+
+section {
+    padding: 60px 60px;
+}

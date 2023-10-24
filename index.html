@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <title>ABC Mobile Banking</title> 
+    </head>
+    <body>
+        <div class="main_box">
+            <div class="container-lg">
+                <div class="row justify-content-center">
+                    <div class="co-md-5 text-center text-md-start">
+                        <h2 class="text-primary text-center">
+                        ABC Mobile Banking
+                        </h2>
+
+                        <h3 class="text-secondary text-center">
+                        Login Page
+                        </h3>
+                    </div>
+                </div>
+            </div>
+
+        <div class="container-lg">
+            <div class="mb-3">
+                <div class="text-center">
+                    <label for="account_number_login" class="form-label">Account Number</label>
+                </div>
+                <input type="number" class="form-control" id="account_number_login" placeholder="Enter your 10 digit account number" required>
+            </div>
+
+            <div class="mb-3">
+                <div class="text-center">
+                    <label for="passcode_login" class="form-label">Passcode</label>
+                </div>
+                <input type="number" class="form-control" id="passcode_login" placeholder="Enter your 6 digit passcode" required>
+            </div>
+        </div>
+
+        <div class="container-lg">
+            <div class="d-flex align-items-center justify-content-center">
+                <button class="btn btn-success" type="submit" id="submit_login" onclick="login()">Login</button>
+            </div>
+        </div>
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>
